@@ -35,7 +35,7 @@ st.sidebar.title("App Explanation")
 
 # Load your image
 #image_path1 = r"C:\Arjun_workstation\NLP_Models\Healthapp\doctor.jpg"
-image_path1 = r"https://github.com/arj0505/HealthyApp/blob/main/doctor.jpg"
+image_path1 = r"https://github.com/arj0505/HealthyApp/blob/main/doctor.jpg?raw=true"
 image1 = Image.open(image_path1)
 
 # Display the image on the left side of the sidebar
