@@ -27,19 +27,29 @@ def input_image_setup(uploaded_file):
 
 # Main Streamlit app
 st.set_page_config(page_title="Health Calories Information App")
-st.title("Health Calories Information Application 👨‍⚕️")
+st.title("Health Calories Information App 👨‍⚕️")
 
 # Sidebar with explanation about the app
-st.sidebar.title("About App Explanation")
-
+st.sidebar.title("App Explanation")
 
 # Load your image
-#image_path1 = r"C:\Arjun_workstation\NLP_Models\Healthapp\doctor.jpg"
-#image_path1 = r"https://github.com/arj0505/HealthyApp/blob/main/doctor.jpg"
-#image1 = Image.open(image_path1)
+# image_path1 = r"C:\Arjun_workstation\NLP_Models\Healthapp\doctor.jpg"
+# image1 = Image.open(image_path1)
+# # Display the image on the left side of the sidebar
+# st.sidebar.image(image1, use_column_width=True)
 
-# Display the image on the left side of the sidebar
-#st.sidebar.image(image1, use_column_width=True)
+
+# Add an MP4 video from a local file
+video_file = open(r"C:\Arjun_workstation\NLP_Models\Healthapp\Recording 2024-01-30 102951.mp4", "rb")
+video_bytes = video_file.read()
+st.sidebar.video(video_bytes)
+
+
+
+
+
+
+
 
 st.sidebar.markdown("""
     Building a Health Calories Information App involves leveraging image recognition technology to analyze images of 
