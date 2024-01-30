@@ -26,7 +26,7 @@ def input_image_setup(uploaded_file):
         raise FileNotFoundError("No file uploaded")
 
 # Main Streamlit app
-st.set_page_config(page_title="Health Calories Information App")
+st.set_page_config(page_title="Arjun Health Calories Information App")
 st.title("Health Calories Information App 👨‍⚕️")
 
 # Sidebar with explanation about the app
