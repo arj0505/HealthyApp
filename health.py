@@ -39,16 +39,10 @@ st.sidebar.title("App Explanation")
 # st.sidebar.image(image1, use_column_width=True)
 
 
-# Add an MP4 video from a local file
-video_file = open(r"C:\Arjun_workstation\NLP_Models\Healthapp\Recording 2024-01-30 102951.mp4", "rb")
-video_bytes = video_file.read()
-st.sidebar.video(video_bytes)
-
-
-
-
-
-
+# # Add an MP4 video from a local file
+# video_file = open(r"C:\Arjun_workstation\NLP_Models\Healthapp\Recording 2024-01-30 102951.mp4", "rb")
+# video_bytes = video_file.read()
+# st.sidebar.video(video_bytes)
 
 
 st.sidebar.markdown("""
